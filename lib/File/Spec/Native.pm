@@ -12,7 +12,7 @@ use warnings;
 
 package File::Spec::Native;
 BEGIN {
-  $File::Spec::Native::VERSION = '1.000';
+  $File::Spec::Native::VERSION = '1.001';
 }
 BEGIN {
   $File::Spec::Native::AUTHORITY = 'cpan:RWSTAUNER';
@@ -39,7 +39,7 @@ File::Spec::Native - Use native OS implementation of File::Spec from a subclass
 
 =head1 VERSION
 
-version 1.000
+version 1.001
 
 =head1 SYNOPSIS
 
@@ -68,7 +68,7 @@ the current, native OS format (automatically detected by L<File::Spec>).
 
 For example: L<Path::Class/as_foreign> (as of version 0.24)
 allows you to translate a L<Path::Class> object from one OS format to another.
-However, there is no way way to specify that you want to translate the path into
+However, there is no way to specify that you want to translate the path into
 the current, native OS format without guessing at what that format is
 (which may include peeking into C<@File::Spec::ISA>).
 

@@ -54,7 +54,7 @@
    "provides" : {
       "File::Spec::Native" : {
          "file" : "lib/File/Spec/Native.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       }
    },
    "release_status" : "stable",
@@ -70,7 +70,7 @@
          "web" : "http://github.com/magnificent-tears/File-Spec-Native"
       }
    },
-   "version" : "1.000",
+   "version" : "1.001",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
