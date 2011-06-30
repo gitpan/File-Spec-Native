@@ -12,7 +12,7 @@ use warnings;
 
 package File::Spec::Native;
 BEGIN {
-  $File::Spec::Native::VERSION = '1.001';
+  $File::Spec::Native::VERSION = '1.002';
 }
 BEGIN {
   $File::Spec::Native::AUTHORITY = 'cpan:RWSTAUNER';
@@ -39,7 +39,7 @@ File::Spec::Native - Use native OS implementation of File::Spec from a subclass
 
 =head1 VERSION
 
-version 1.001
+version 1.002
 
 =head1 SYNOPSIS
 
