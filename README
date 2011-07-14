@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution File-Spec-Native,
-version 1.002:
+version 1.003:
 
   Use native OS implementation of File::Spec from a subclass
 

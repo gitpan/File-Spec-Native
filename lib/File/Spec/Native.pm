@@ -12,7 +12,7 @@ use warnings;
 
 package File::Spec::Native;
 BEGIN {
-  $File::Spec::Native::VERSION = '1.002';
+  $File::Spec::Native::VERSION = '1.003';
 }
 BEGIN {
   $File::Spec::Native::AUTHORITY = 'cpan:RWSTAUNER';
@@ -39,7 +39,7 @@ File::Spec::Native - Use native OS implementation of File::Spec from a subclass
 
 =head1 VERSION
 
-version 1.002
+version 1.003
 
 =head1 SYNOPSIS
 
@@ -168,9 +168,9 @@ progress on the request by the system.
 =head2 Source Code
 
 
-L<http://github.com/magnificent-tears/File-Spec-Native>
+L<http://github.com/rwstauner/File-Spec-Native>
 
-  git clone http://github.com/magnificent-tears/File-Spec-Native
+  git clone http://github.com/rwstauner/File-Spec-Native
 
 =head1 AUTHOR
 
